@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Plate Number Lookup - VMIS</title>
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="carsearch-container">
+        <div class="car-search-main">
+            <h2 style="text-transform: uppercase; text-align: center;">Car Plate Number Lookup</h2>
+            <form action="/lookup-car" method="POST">
+                <div class="search-user">
+                    <label for="plateNumber">Enter Car Plate Number:</label>
+                    <div class="input-field">
+                        <input type="text" id="plateNumber" value="Ikenna" name="plateNumber"
+                            placeholder="e.g., ABC-123DE" required>
+                            <button><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+                    </div>
+                 
+
+                </div>
+            </form>
+            <div class="driver-details">
+                <div class="driver-detail">
+                    <img src="./Images/user-1.jpg" alt="Driver's">
+                    <p>Ikenna Chibuzor</p>
+                    <p>+23470466302..</p>
+                    <p>ABC 123 ABC</p>
+                </div>
+                <div class="driver-detail">
+                    <img src="./Images/user-2.jpg" alt="Driver's">
+                    <p>Chukwu Ikenna</p>
+                    <p>+23308966302..</p>
+                    <p>LMN 789 GHI</p>
+                </div>
+                <div class="driver-detail">
+                    <img src="./Images/user-3.jpg" alt="Driver's">
+                    <p>Sofia Ikenna</p>
+                    <p>+2308663202..</p>
+                    <p>PQR 321 JKL</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
